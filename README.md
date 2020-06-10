@@ -7,7 +7,7 @@ Add this line to your application's Gemfile:
 
 ```
 group :test, :development do
-  gem 'scc-codestyle'
+  gem 'vehiculum-codestyle'
 end
 ```
 
