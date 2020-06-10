@@ -1,0 +1,9 @@
+inherit_from:
+  - default.yml
+
+Naming/FileName:
+  inherit_mode:
+    merge:
+      - Exclude
+  Exclude:
+    - vehiculum-codestyle.gemspec
