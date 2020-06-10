@@ -225,7 +225,7 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Enabled: false
 
-Mtrics/BlockNesting:
+Metrics/BlockNesting:
   Enabled: true
   Max: 3
 
@@ -576,4 +576,4 @@ RSpec/RepeatedExampleGroupBody:
   Enabled: pending
 
 RSpec/RepeatedExampleGroupDescription:
-  Enabled: pendinge
+  Enabled: pending
