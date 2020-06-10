@@ -16,15 +16,26 @@ You do not need to include RuboCop directly in your application's dependencies. 
 Usage
 Create a .rubocop.yml with the following directives:
 
+```
 inherit_gem:
   vehiculum-codestyle:
     - default.yml
+```
+
 Now, run:
 
+```
 $ bundle exec rubocop
+```
+
 You can also automatically generate a .rubocop_todo.yml file to temporarily ignore failing cops until the offenses are removed from your code base. Run:
 
+```
 $ bundle exec rubocop --auto-gen-config
+```
+
 And add this to .rubocop.yml below the previous block:
 
+```
 inherit_from: .rubocop_todo.yml
+```
