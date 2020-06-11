@@ -1,5 +1,7 @@
 # vehiculum-codestyle
 
+![vehiculum-codestyle](https://github.com/vehiculum-berlin/vehiculum-codestyle/workflows/vehiculum-codestyle/badge.svg?branch=master)
+
 Shared Ruby style guide used by Vehiculum Tech team
 
 ## Installation
