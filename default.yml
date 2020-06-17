@@ -62,6 +62,9 @@ Style/Next:
 Layout/ClosingParenthesisIndentation:
   Enabled: false
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
 Style/WordArray:
   Enabled: false
 
@@ -112,6 +115,15 @@ Style/GuardClause:
 Style/HashSyntax:
   EnforcedStyle: ruby19
 
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+
+Style/RedundantRegexpEscape:
+  Enabled: true
+
+Style/SlicingWithRange:
+  Enabled: true
+
 Style/RedundantSelf:
   Enabled: true
 
@@ -146,6 +158,9 @@ Lint/AssignmentInCondition:
 Layout/BlockAlignment:
   Enabled: true
 
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
 Lint/LiteralAsCondition:
   Enabled: true
 
@@ -153,6 +168,9 @@ Lint/Loop:
   Enabled: true
 
 Lint/MissingCopEnableDirective:
+  Enabled: true
+
+Lint/MixedRegexpCaptureTypes:
   Enabled: true
 
 Lint/ParenthesesAsGroupedExpression:
